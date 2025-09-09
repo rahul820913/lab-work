@@ -49,7 +49,7 @@ def handle_client(client_socket, addr, server_name, server_integer):
 
 
 def run_server(host="0.0.0.0", port=6000):
-    server_name = "Server of John Q. Smith"
+    server_name = "Server of Rahul"
     server_integer = 42
 
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -74,3 +74,4 @@ def run_server(host="0.0.0.0", port=6000):
 
 if __name__ == "__main__":
     run_server()
+
