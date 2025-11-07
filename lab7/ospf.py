@@ -5,9 +5,7 @@ import time
 INF = 10**9  
 
 
-# -------------------------------
-# Router class
-# -------------------------------
+
 class Router:
     def __init__(self, name):
         self.name = name
@@ -131,3 +129,4 @@ if __name__ == "__main__":
 
 
     net.display_tables()
+
